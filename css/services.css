@@ -1,0 +1,149 @@
+.body{
+    padding: 0px;
+    margin: 0px;
+    background-color:#fff3e6;
+}
+.heading{
+    font-size: 50px;
+    color:#ff6600;
+    padding: 10px;
+    text-align: center;
+    margin-top: 28px;
+}
+.service-container{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 70px;
+    justify-content: space-around;
+}
+.service-card{
+   width: 350px;
+   background-color:white;
+   border-top-right-radius: 50px;
+   border-bottom-left-radius: 50px;
+   padding: 15px;
+   position: relative;
+   box-shadow: 0px 0px 5px 5px gray;
+   margin-top:20px;
+}
+.services-card-icon{
+   color: orange;
+   font-size: 40px;
+   position: absolute;
+   width: 50px;
+   background-color: white;
+   border-radius: 5px;
+   padding: 10px;
+   border: 2px solid orange;
+   text-align: center;
+   top:-38px;
+   left: 148px;
+}
+.services-card-title{
+    color: orange;
+    text-align: center;
+    font-size: 28px;
+    margin-top: 25px;
+}
+.services-card-description{
+    font-size: 20px;
+    text-align: justify;
+}
+.Terms-Conditions-heading{
+    font-size: 40px;
+    color:#ff6600;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 50px;
+}
+.Terms-Conditions-description{
+    font-size: 25px;
+}
+.checkbox{
+    font-size: 22px;
+}
+.checkbox:hover{
+    cursor: pointer;
+}
+.submit-button{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 12px;
+    height: 50px;
+    width: 140px;
+    font-size: 25px;
+    background-color: orange;
+    border: 2px solid black;
+    border-radius: 35px;
+}
+.submit-button:hover{
+   cursor: pointer;
+  background-color:#3b2612;
+  color: white;
+}
+.footer{
+    background:#fff3e6;
+    padding:30px 0px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align:center;
+    }
+    
+    .footer .row{
+    width:100%;
+    margin:1% 0%;
+    padding:0.6% 0%;
+    color:#3b2612;
+    font-size:20px;
+    }
+    
+    .footer .row a{
+    text-decoration:none;
+    color:#000;
+    transition:0.5s;
+    }
+    
+    .footer .row a:hover{
+    color:#3b2612;
+    }
+    
+    .footer .row ul{
+    width:100%;
+    font-size:16px;
+    font-weight:100%;
+    }
+    
+    .footer .row ul li{
+    display:inline-block;
+    margin:0px 30px;
+    }
+    
+    .footer .row a i{
+    font-size:28px;
+    margin:0% 1%;
+    font-weight:100%;
+    color:#cc7a00;
+    }
+    .home-icon{
+        font-size: 25px;
+    }
+@media only screen and (max-width:675px){
+    .heading{
+      font-size: 30px;
+      margin-top: 20px;
+    }
+    .footer{
+        width: 100%;
+    }
+    .service-card{
+        margin-top: 10px;
+    }
+    .Terms-Conditions-heading{
+        font-size: 20px;
+
+    }
+}
+@media only screen and (max-width:1400px){
+    .service-card{
+        margin-top: 80px;
+    }
+}
